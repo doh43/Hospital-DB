@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: beige;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu li {
+    text-align: center;
+    margin: 20px;
+}
+
+#menu li a {
+    display: block;
+    color: aliceblue;
+    font-size: large;
+    padding: 10px;
+    background-color: grey;
+}
+
+#menu li a:hover {
+    background-color: rgb(75, 75, 75);
+}
+
+#adddoctor, 
+#doctorsinfo, 
+#removedoctor, 
+#doctopat, 
+#updatebeds {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#updatebeds > *{
+    margin: 10px;
+}
+
+#doctorsinfo table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#doctorsinfo td {
+    text-align: center;
+}
+
+#doctorsinfo form {
+    margin: 30px;
+    text-align: center;
+}
+
+#doctorsinfo form button {
+    width: 60%;
+}
+
+button {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin: 20px;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#8C8C8C;
+    text-align:center;
+    transition: all 0.2s;
+}
+button:hover{
+    background-color:#3C3C3C;
+}
+
+form {
+    text-align: center;
+}
+
+
